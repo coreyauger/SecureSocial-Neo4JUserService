@@ -6,8 +6,12 @@ Neo4J user service plugin for secure social (play framework/scala)
 ## Background
 Building reactive web applications with playframework and scala often starts with a social login system.  One great way to get started here is to use [Secure Social](http://securesocial.ws/).  They provide a simple way to get up and running with a large number of providers.  Once you are running you will need to store your accoount information and more the likly the relationships between your social users "friends".  This is where Neo4J really shines.
 
+## Requirments 
+* Play Framework [play](http://www.playframework.com/)
+* Secure Social plugin for play [Secure Social](http://securesocial.ws/)
+
 ## Setup
-Once you have secure social up and running all you need to do is add this scala file to your play project.  I created a app/servicies directory to place the file.  Next you simply need to add a line to your play.plugins
+Once you have secure social [up and running](http://securesocial.ws/guide/getting-started.html) all you need to do is add this scala file to your play project.  I created a app/servicies directory to place the file.  Next you simply need to add a line to your play.plugins
 
 play.plugins
 ```
