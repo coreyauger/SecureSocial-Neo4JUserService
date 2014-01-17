@@ -73,3 +73,7 @@ Another way would be a settings section on your site when a user is loged in, th
 (u:User)-[:HAS_ACCOUNT]->(p1:Provider)
         \[:HAS_ACCOUNT]->(p2:Provider)
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/coreyauger/securesocial-neo4juserservice/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
