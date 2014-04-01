@@ -73,3 +73,5 @@ Another way would be a settings section on your site when a user is loged in, th
 (u:User)-[:HAS_ACCOUNT]->(p1:Provider)
         \[:HAS_ACCOUNT]->(p2:Provider)
 ```
+
+Update: Newer Versions of Secure Social now provide a "link" method where you can handle this.
